@@ -1,4 +1,4 @@
-## 1.更改代码后运行或者打包后代码不生效
+## 1.React Native更改代码后运行或者打包后代码不生效
 ### 原因：android/app/src/main/assets下的index.android.bundle文件没有更新
 ### 解决办法：
 *  1. 进入android目录 `cd android `
