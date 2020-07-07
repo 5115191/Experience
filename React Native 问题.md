@@ -6,3 +6,7 @@
 *  或者在项目根目录运行`react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/`
 *  如果项目中有index.android.js，那么运行
  `react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/`
+ 
+ ## 2.报错 React native : Unexpected token in JSON at position 0
+ ### 解决办法：
+ * 运行 `npm start -- --reset-cache` 重置缓存后启动npm
