@@ -1,4 +1,4 @@
-## 生命周期的8个方法
+## React 生命周期的8个方法
 ### 一、 componentWillMount()
 * 执行场景在
 	- render()方法之前
