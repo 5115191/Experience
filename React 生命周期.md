@@ -1,8 +1,8 @@
 ## 生命周期的8个方法
 ### 一. componentWillMount()
-  执行场景
-  在render()方法之前
-  解释
+*  执行场景
+* 在render()方法之前
+* 解释
   1. 因为componentWillMount是在render之前执行，所以在这个方法中setState不会发生重新渲染(re-render);
   2. 这是服务端渲染(server render)中唯一调用的钩子(hook);
   3. 通常情况下，推荐用constructor()方法代替;
