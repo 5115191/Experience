@@ -69,3 +69,4 @@
 * 参数
 	- 1.可以是Object类型, 这时是异步的setState, 同时接收一个在state发生改变之后的回调, 如this.setState(Object, callback), 其中callback可以是() => { ... this.state ... };
 	- 2.可以是Function类型, 这时是同步的setState, 例如: (prevState, prevProps) => nextState, 同步存在一定效率问题(不理解), 但是它有一个好处就是支持Immutable;
+	
